@@ -1,0 +1,8 @@
+<h1>Lista de personajes</h1>
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4">
+  <app-item-character
+    class="col"
+    *ngFor="let character of characters"
+    [character]="character"
+  ></app-item-character>
+</div>

@@ -1,0 +1,15 @@
+<div class="card shadow-sm h-100">
+  <img [src]="character.image" class="card-img-top" alt="..." />
+  <div class="card-body">
+    <h5 class="card-title">{{ character.name }}</h5>
+    <h6 class="card-subtitle mb-2 text-body-secondary">
+      {{ character.status }} - {{ character.species }}
+    </h6>
+    <p class="card-text">Location: {{ character.location.name }}</p>
+    <p class="card-text">Origin: {{ character.origin.name }}</p>
+    <p class="card-text">Gender: {{ character.gender }}</p>
+  </div>
+  <div class="card-footer">
+    <small class="text-body-secondary">{{ character.type }}</small>
+  </div>
+</div>
