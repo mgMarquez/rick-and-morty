@@ -22,7 +22,6 @@ export class ListCharacterComponent {
       .subscribe((res: any) => {
         const { info, results } = res;
         this.characters = [...results];
-        console.log(this.characters);
       });
   }
 }
